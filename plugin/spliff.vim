@@ -56,7 +56,7 @@ function! s:Spliff_h()
 	endif
 endfunction
 
-function s:Spliff_u()
+function! s:Spliff_u()
 	let bufsum = NrBufs()
 	if bufsum ==? 1
 		let curbufnum = bufnr('%')
