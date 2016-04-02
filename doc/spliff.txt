@@ -47,7 +47,6 @@ buffer you need to load.
 
 Spliff does not provide at the moment default keybindings. The user needs to
 add to .vimrc the following: >
-
     nnoremap <C-m> :Spliffv<CR>
     nnoremap <C-n> :Spliffh<CR>
     nnoremap <C-o> :Spliffh<CR>
