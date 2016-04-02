@@ -1,4 +1,4 @@
-spliff.txt*   Buffer manipulation for splits.
+*spliff.txt*   Buffer manipulation for splits.
 
 
                               Reference Manual~
