@@ -46,21 +46,21 @@ Obligatory screenshots included:
 
 Opening a buffer in a horizontal split with ^N:
 
-![spliffh](spliffh.gif)
+![spliffh](images/spliffh.gif)
 
 Opening a buffer in a vertical split with ^M:
 
-![spliffv](spliffv.gif)
+![spliffv](images/spliffv.gif)
 
 Opening a buffer in the same view with ^O:
 
-![spliffo](spliffo.gif)
+![spliffo](images/spliffo.gif)
 
 
 When you need to close a split, just press ^C. If no other split exists, it
 will _not_ quit vim and output and error in command bar.
 
-![spliffc](spliffc.gif)
+![spliffc](images/spliffc.gif)
 
 [0]: https://github.com/jlanzarotta/bufexplorer
 [1]: https://github.com/bling/vim-bufferline
