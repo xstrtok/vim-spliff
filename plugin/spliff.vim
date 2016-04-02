@@ -2,10 +2,10 @@
 "
 " :help spliff.txt
 
-if exists('lodedspliff')
+if exists('g:loaded_spliff')
 	finish
 endif
-let loadedspliff = 1
+let g:loaded_spliff = 1
 
 " Count open buffers
 function! NrBufs()
