@@ -34,7 +34,7 @@ To quick start, append in your .vimrc the following: >
     nnoremap <C-m> :Spliffv<CR>
     nnoremap <C-n> :Spliffh<CR>
     nnoremap <C-o> :Spliffh<CR>
-    nnoremap <C-c> :Spliffc<CR>
+    nnoremap <C-x> :Spliffc<CR>
 <
 Open some files with vim (`vim file1 file2`) and use ^M with a buffer number
 to open a split. To close a split, press ^C.
@@ -50,7 +50,7 @@ add to .vimrc the following: >
     nnoremap <C-m> :Spliffv<CR>
     nnoremap <C-n> :Spliffh<CR>
     nnoremap <C-o> :Spliffh<CR>
-    nnoremap <C-c> :Spliffc<CR>
+    nnoremap <C-x> :Spliffc<CR>
 <
 ==============================================================================
 3. Commands                                               *spliff-commands*

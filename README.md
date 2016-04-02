@@ -35,12 +35,12 @@ To use vim-spliff, you need to map included commands. Example:
 	nnoremap <C-m> :Spliffv<CR>
 	nnoremap <C-n> :Spliffh<CR>
 	nnoremap <C-o> :Spliffo<CR>
-	nnoremap <C-c> :Spliffc<CR>
+	nnoremap <C-x> :Spliffc<CR>
 
 ^M to open buffer in vertical split,
 ^N to open buffer in horizontal split,
 ^O to open buffer in the same window,
-^C to quickly close split.
+^X to quickly close split.
 
 Obligatory screenshots included:
 
