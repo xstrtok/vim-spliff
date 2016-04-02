@@ -1,0 +1,85 @@
+spliff.txt*   Buffer manipulation for splits.
+
+
+                              Reference Manual~
+
+
+==============================================================================
+CONTENTS                                                  *spliff-contents*
+
+    1.Intro........................................|spliff-intro|
+        1.1.Quick start............................|spliff-quickstart|
+        1.2.Recommended settings...................|spliff-recommended|
+    2.Functionality provided.......................|spliff-functionality|
+    3.Commands.....................................|spliff-commands|
+    4.About........................................|spliff-about|
+    5.License......................................|spliff-license|
+
+
+==============================================================================
+1. Intro                                                     *spliff-intro*
+
+Spliff is a simple plugin that makes easy to open a buffer on a split. It
+features a handle for closing splits fast, taking into account that if the
+opened buffer is the only one, it doesn't quit vim.
+
+It expects as input the buffer number the user wants to open, so you need
+a plugin that exposes buffers with numbers (for example, I use
+vim-buftabline).
+
+------------------------------------------------------------------------------
+1.1. Quick start                                        *spliff-quickstart*
+
+To quick start, append in your .vimrc the following: >
+    nnoremap <C-m> :Spliffv<CR>
+    nnoremap <C-n> :Spliffh<CR>
+    nnoremap <C-o> :Spliffh<CR>
+    nnoremap <C-c> :Spliffc<CR>
+<
+Open some files with vim (`vim file1 file2`) and use ^M with a buffer number
+to open a split. To close a split, press ^C.
+
+If you need to load a buffer into the current view, use ^O and select the
+buffer you need to load.
+
+------------------------------------------------------------------------------
+1.2. Recommended settings                              *spliff-recommended*
+
+Spliff does not provide at the moment default keybindings. The user needs to
+add to .vimrc the following: >
+
+    nnoremap <C-m> :Spliffv<CR>
+    nnoremap <C-n> :Spliffh<CR>
+    nnoremap <C-o> :Spliffh<CR>
+    nnoremap <C-c> :Spliffc<CR>
+<
+==============================================================================
+3. Commands                                               *spliff-commands*
+
+:Spliffv                                                              *:Spliffv*
+
+Opens a buffer in vertical split.
+
+:Spliffh                                                              *:Spliffh*
+
+Opens a buffer in horizontal split.
+
+:Spliffo                                                              *:Spliffo*
+
+Opens a buffer in the same view.
+
+:Spliffc                                                              *:Spliffc*
+
+Closes a split. If it's the only one, it will not quit vim.
+
+==============================================================================
+4. About                                                     *spliff-about*
+
+Find the plugin at:
+
+    http://github.com/xstrtok/vim-spliff
+
+==============================================================================
+9. License                                                 *spliff-license*
+
+Spliff is released under the BSD license.
