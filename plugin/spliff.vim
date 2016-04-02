@@ -29,13 +29,11 @@ function! s:Spliff_v()
 	if bufsum ==? 1
 		let curbufnum = bufnr('%')
 		execute ':vert sb '.curbufnum
-		" echo '"'.bufname('').'"'
 	else
 		call inputsave()
 		let bufswitch = input('Open buffer(v):')
 		call inputrestore()
 		execute ':vert sb '.bufswitch
-		" echo '"'.bufname('').'"'
 	endif
 endfunction
 
@@ -46,13 +44,11 @@ function! s:Spliff_h()
 	if bufsum ==? 1
 		let curbufnum = bufnr('%')
 		execute ':sb '.curbufnum
-		" echo '"'.bufname('').'"'
 	else
 		call inputsave()
 		let bufswitch = input('Open buffer(h):')
 		call inputrestore()
 		execute ':sb '.bufswitch
-		" echo '"'.bufname('').'"'
 	endif
 endfunction
 
