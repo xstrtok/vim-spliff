@@ -32,15 +32,15 @@ bufferline[1] and vim-buftabline[2]. I'm using the latter.
 To use vim-spliff, you need to map included commands. Example:
 
 	set hidden
-	nnoremap <C-m> :Spliffv<CR>
-	nnoremap <C-n> :Spliffh<CR>
-	nnoremap <C-o> :Spliffo<CR>
-	nnoremap <C-x> :Spliffc<CR>
+	noremap <Leader>m :Spliffv<CR>
+	noremap <Leader>n :Spliffh<CR>
+	noremap <Leader>o :Spliffo<CR>
+	noremap <Leader>x :Spliffc<CR>
 
-^M to open buffer in vertical split,
-^N to open buffer in horizontal split,
-^O to open buffer in the same window,
-^X to quickly close split.
+<leader>M to open buffer in vertical split,
+<leader>N to open buffer in horizontal split,
+<leader>O to open buffer in the same window,
+<leader>X to quickly close split.
 
 Obligatory screenshots included:
 
